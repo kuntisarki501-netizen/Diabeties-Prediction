@@ -1,0 +1,88 @@
+# Diabetes Prediction Project
+
+## Overview
+
+This project focuses on predicting diabetes using machine learning classification models. The workflow includes data preprocessing, feature scaling, model training, hyperparameter tuning, and evaluation using multiple performance metrics.
+
+The main implementation is provided in the Jupyter Notebook:
+
+* `Diabetes Prediction.ipynb`
+
+## Models Used
+
+* Logistic Regression
+* Decision Tree Classifier
+* Random Forest Classifier
+* Support Vector Machine (SVM)
+
+## Technologies & Libraries
+
+* Python 3
+* NumPy
+* Pandas
+* Scikit-learn
+* Matplotlib
+* Seaborn
+* SHAP (model interpretability)
+* Jupyter Notebook
+
+## Project Structure
+
+```
+├── Diabetes Prediction.ipynb
+├── README.rmd
+├── requirements.txt
+```
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/diabetes-prediction.git
+cd diabetes-prediction
+```
+
+2. Create a virtual environment (optional but recommended):
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+Run the Jupyter Notebook to train and evaluate the models:
+
+```bash
+jupyter notebook
+```
+
+Open `Diabetes Prediction.ipynb` and execute the cells sequentially.
+
+## Evaluation Metrics
+
+* Accuracy
+* Precision
+* Recall
+* F1-score
+* ROC-AUC
+* Confusion Matrix
+
+## Results
+
+The notebook compares different models and highlights the best-performing approach based on evaluation metrics.
+
+## Future Improvements
+
+* Add more advanced feature engineering
+* Try additional models (e.g., XGBoost, LightGBM)
+* Deploy the model as a web application
+
+
