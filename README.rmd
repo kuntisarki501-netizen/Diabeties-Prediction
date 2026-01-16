@@ -1,32 +1,43 @@
-# Diabetes Prediction Project
+Diabetes Prediction Project
+===========================
 
-## Overview
+Overview
+--------
+This project focuses on predicting diabetes using machine learning techniques in Python.  
+The notebook includes data preprocessing, exploratory data analysis, feature scaling, and model building to classify whether a patient is diabetic or not.
 
-This project focuses on diabetes prediction using Python. The notebook includes data preprocessing, exploratory data analysis, feature scaling, and machine learning model building to predict whether a patient has diabetes.
+Dataset
+-------
+- Structured dataset in CSV format  
+- Contains medical and health-related features  
+- Used for classification and predictive modeling  
+- Preprocessing steps applied to handle missing values and feature scaling  
 
-## Dataset
+Models Used
+-----------
+- Logistic Regression  
+- Decision Tree Classifier  
+- Random Forest Classifier  
+- Support Vector Machine (SVM)  
 
-* Structured dataset in CSV format
-* Contains medical and health-related attributes
-* Used for classification and predictive modeling
-* Preprocessing steps applied to handle missing values, scaling, and feature selection
+Tools & Technologies
+--------------------
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
+- Seaborn  
+- Jupyter Notebook  
 
-## Models
+Workflow
+--------
+1. Data loading and inspection  
+2. Data cleaning and preprocessing  
+3. Exploratory Data Analysis (EDA)  
+4. Feature scaling and selection  
+5. Model training and evaluation  
 
-* Logistic Regression
-* Decision Tree Classifier
-* Random Forest Classifier
-* Support Vector Machine (SVM)
-
-## Tools & Libraries
-
-* Python
-* NumPy
-* Pandas
-* Scikit-learn
-* Matplotlib
-* Seaborn
-
-## File
-
-* `Diabetes Prediction.ipynb` – main notebook containing analysis and model training
+Project File
+------------
+- `Diabetes Prediction.ipynb` – main notebook containing analysis and model building
